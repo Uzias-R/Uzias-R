@@ -1,0 +1,48 @@
+body{
+    font-family: Century Gothic, sans-serif;
+    background-color: antiquewhite;
+    
+    }
+    h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #guess-input {
+        display: block;
+        margin: 0 auto 20px;
+        padding: 10px;
+        font-size: 18px;
+        width: 250px;
+        border: 1px solid #700000;
+    }
+    #guess-button{
+        display: block;
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: cornflowerblue;
+        color: black;
+        border: none;
+        border-radius: 7px;
+    }
+    button:active {
+        transform: scale(0.95);
+    }
+    .letter{
+        border: 1px solid orange;
+        padding: 3px;
+        margin: 3px;
+        min-width: 30px;
+        text-align: center;
+        display: inline-block;
+    }
+    .row {
+        margin-bottom: 10px;
+    }
+    input-area {
+        margin: 30px;
+    }
+    #grid{
+        text-align: center;
+        margin-top: 20px;
+    }
